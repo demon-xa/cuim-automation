@@ -1,0 +1,10 @@
+- name: Copy autoupdate.sh file to /opt/ptolemey/scripts
+  copy:
+    src: files/autoupdate.sh
+    dest: /opt/ptolemey/scripts/autoupdate.sh
+    mode: "0755"
+
+- name: Add cron job to /etc/cron.d/autoupdate
+  copy:
+    content: "*/1 * * * * root /opt/ptolemey/scripts/autoupdate.sh release_stage_1\n"
+    dest: /etc/cron.d/autoupdate

@@ -1,0 +1,4 @@
+.venv
+*.test
+.DS_Store
+packages/__pycache__

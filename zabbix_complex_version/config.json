@@ -1,0 +1,9 @@
+{
+    "confluence_url":"http://conf.grav.su/",
+    "user":"",
+    "password":"",
+    "space":"PC",
+    "page":"Статистика по версиям ПО на комплексах",
+    "zabbix_url":"https://zabbix2.ptolemey.net",
+    "zabbix_access_key":"785af16cee729ab608120384f2626237e83ad0f754d28760f12d465565e80cc6"
+}

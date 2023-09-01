@@ -1,0 +1,8 @@
+.venv
+*.test
+.DS_Store
+packages/__pycache__
+*.csv
+test.js
+*.zip
+*.txt

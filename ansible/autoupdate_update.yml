@@ -1,0 +1,7 @@
+- name: Update autoupdate.sh and set cron job
+  hosts: all
+  gather_facts: no
+  strategy: free
+  
+  roles:
+    - autoupdate_update

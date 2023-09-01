@@ -1,0 +1,27 @@
+{
+    "zabbix_url": "https://zabbix2.ptolemey.net/tools/asterisk_input.php",
+    "prod": {
+        "queuedir": "/var/www/html/srv/queue/",
+        "cdr_file": "/var/log/asterisk/cdr-custom/zabbix.csv",
+        "logfile": "/var/www/html/srv/scripts/info.log",
+        "asterisk_outgoing_folder": "/var/spool/asterisk/outgoing/",
+        "timeout_befor_check_call": 33
+    },
+    "user_id_group": 2600,
+    "asterisk_outgoing_folder": "/var/spool/asterisk/outgoing/",
+    "smsc_send_url": "https://smsc.ru/sys/send.php",
+    "smsc_status_url": "https://smsc.ru/sys/status.php",
+    "login_megafon": "",
+    "pass_megafon": "",
+    "login_reseller": "",
+    "pass_reseller": "",
+    "rotate_mb": "50 MB",
+    "logfile_lvl": "DEBUG",
+    "dev": {
+        "queuedir": "queue/",
+        "cdr_file": "zabbix.csv",
+        "asterisk_outgoing_folder": "outgoing/",
+        "logfile": "info.log",
+        "timeout_befor_check_call": 3
+    }
+}

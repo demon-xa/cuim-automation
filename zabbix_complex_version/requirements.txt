@@ -1,0 +1,2 @@
+pyzabbix==1.2.1
+atlassian-python-api==3.35.0

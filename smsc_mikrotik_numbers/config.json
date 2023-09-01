@@ -1,0 +1,13 @@
+{
+    "read_smsc_url":"https://smsc.ru/sys/get.php",
+    "login":"",
+    "password":"",
+    "postgress": {
+        "address": "10.178.78.11",
+        "port": 5432,
+        "db": "",
+        "login": "",
+        "pass": "",
+        "table_smsc": "analitics_zabbix_smsc_mikrotik_phones"
+    }
+}

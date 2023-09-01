@@ -1,0 +1,24 @@
+{
+    "hosts_file_name": "hosts.csv",
+    "smsc_history_url": "https://smsc.ru/sys/get.php",
+    "smsc_contacts_url": "https://smsc.ru/sys/phones.php",
+    "smsc_login": "",
+    "smsc_pass": "",
+    "smsc_file": "sms_answers.csv",
+    "postgress": {
+        "address": "10.178.78.11",
+        "port": 5432,
+        "db": "",
+        "login": "",
+        "pass": "",
+        "table_smsc": "analitics_zabbix_smsc_bt_phones"
+    },
+    "confluence": {
+        "confluence_url": "http://conf.grav.su/",
+        "user": "",
+        "password": "",
+        "space": "PC",
+        "page": "Не стыковки в контактах",
+        "confluence_file_url": "http://conf.grav.su/download/attachments/59016085/host_version.csv"
+    }
+}

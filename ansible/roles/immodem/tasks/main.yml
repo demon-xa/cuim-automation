@@ -1,0 +1,18 @@
+---
+  - name: Поиск маодема
+    shell: lsusb | grep "1e0e:9003\|1e0e:9011"
+    args:
+      executable: /bin/bash
+    register: lsusb
+
+  - name: Запуск скрипта
+    script: sendsms.py
+    args:
+      executable: /usr/bin/python3
+    when: lsusb.rc == 0
+
+  - name: Запуск скрипта попытка 2
+    script: sendsms.py
+    args:
+      executable: /usr/bin/python3
+    when: lsusb.rc == 0
